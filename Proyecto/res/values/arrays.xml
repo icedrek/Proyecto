@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria">
+        <item>Alimentacion</item>
+        <item>Automocion</item>
+        <item>Construccion</item>
+        <item>Educacion</item>
+        <item>Tecnologia</item>
+    </string-array>
+</resources>

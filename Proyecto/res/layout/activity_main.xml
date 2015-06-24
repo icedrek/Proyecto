@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation   ="vertical"
+    android:gravity       = "center"
+    android:background    = "@drawable/fondo"
+    android:layout_width  = "match_parent" 
+    android:layout_height = "match_parent"> 
+
+    <TextView        
+        android:layout_width  = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "9" />
+
+<!-- Boton para lanzar ALTA -->          
+    <LinearLayout
+        android:orientation   = "horizontal"
+        android:layout_width  = "fill_parent"
+        android:layout_height = "wrap_content" >
+        
+        <TextView
+            android:layout_width  = "fill_parent"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2" />
+  
+        <Button
+            android:id            = "@+id/btAlta"
+            android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "1"
+        	android:textColor     = "#999"
+        	android:textStyle     = "bold"
+        	android:text          = "@string/alta" />
+        
+        <TextView
+            android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" />        
+	</LinearLayout>
+	
+<!-- Boton para lanzar Baja -->	
+    <LinearLayout 
+    	android:orientation       = "horizontal"
+    	android:layout_width      = "fill_parent"
+    	android:layout_height     = "wrap_content" >
+    	
+    	<TextView
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" />
+    
+    	<Button    	    
+        	android:id            = "@+id/btBaja"
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "1"
+        	android:textColor     = "#999"
+        	android:textStyle     = "bold"
+        	android:text          = "@string/baja" />
+    	
+    	<TextView
+        	android:layout_width  ="fill_parent"
+        	android:layout_height ="wrap_content"
+        	android:layout_weight ="2" />    	
+    </LinearLayout>
+
+<!-- Boton para lanzar Busqueda -->      
+    <LinearLayout 
+    	android:orientation       = "horizontal"
+    	android:layout_width      = "fill_parent"
+    	android:layout_height     = "wrap_content" >
+    
+        <TextView
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" />
+    
+    	<Button
+        	android:id            = "@+id/btConsulta"
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "1"
+        	android:textColor     = "#999"
+        	android:textStyle     = "bold"
+        	android:text          = "@string/busqueda" />
+    	
+    	<TextView
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" /> 
+    </LinearLayout>
+    
+<!-- Boton para lanzar Acceso a Web -->          
+    <LinearLayout 
+    	android:orientation       = "horizontal"
+    	android:layout_width      = "fill_parent"
+    	android:layout_height     = "wrap_content" >
+    
+        <TextView
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" />
+   
+        <Button
+        	android:id            = "@+id/btAcceso"
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "1"
+        	android:textColor     = "#999"
+        	android:textStyle     = "bold"
+        	android:text          = "@string/acceso" />
+    
+    	<TextView
+        	android:layout_width  = "fill_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "2" />    	
+	</LinearLayout>
+	
+    <TextView        
+        android:layout_width  = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "9" />
+</LinearLayout>

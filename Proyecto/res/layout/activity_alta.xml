@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center"
+    android:background="@drawable/fondo" >
+ 	
+ <!-- Campos para Nombre de Empresa y Categoria -->	
+ 	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="left"
+	        android:textColor="#999" 
+	        android:textStyle="bold"
+	        android:text="@string/empresa" 
+			/>
+	    
+	    <TextView
+       	 	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:gravity="left"
+        	android:textColor="#999" 
+	        android:textStyle="bold"
+        	android:text="@string/categoria" 
+       		/>
+	</LinearLayout>
+	    	    
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <EditText 
+	        android:hint="@string/hintEmpresa"
+	        android:id="@+id/etEmpresa"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"	        
+	        android:textColor="#999"	        	   
+	    	android:textCursorDrawable="@null"
+	        android:layout_weight="1"
+	        android:inputType="text" 
+			/>
+    
+	    <Spinner
+	        android:id="@+id/spCategoria"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textColor="#999"
+	        android:layout_weight="1"	        
+	        android:drawSelectorOnTop="true" 
+			/>
+    </LinearLayout>
+    
+<!-- Campos para Dirección física de la empresa -->		
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:gravity="left" >
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#999" 
+		    android:textStyle="bold"
+	        android:text="@string/direccion" 
+	        />
+    </LinearLayout>
+        
+	<EditText
+	    android:hint="@string/hintDireccion"
+	    android:id="@+id/etDireccion" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#999"
+		android:textCursorDrawable="@null"
+		android:inputType="textPostalAddress" 
+		/>    
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:textColor="#999" 
+	        android:textStyle="bold"
+	        android:text="@string/codPostal" 
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:textColor="#999" 
+	        android:textStyle="bold"
+	        android:text="@string/poblacion" 
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <EditText 
+	        android:hint="@string/hintCodpos"
+	        android:id="@+id/etCodPos"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:maxLength="5"
+	        android:textCursorDrawable="@null"
+	        android:textColor="#999"
+	        android:gravity="center"
+	        android:inputType="number"   
+	        />
+	    
+	    <EditText 
+	        android:hint="@string/hintPoblacion"
+	        android:id="@+id/etPoblacion"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:textCursorDrawable="@null"
+	        android:textColor="#999"
+	        android:inputType="text"	        
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+    
+	    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="3"
+		        android:gravity="right"
+		        android:textColor="#999" 
+	       		android:textStyle="bold"
+		        android:text="@string/provincia" 
+		        />
+	    
+	    <EditText
+	        android:hint="@string/hintProvincia"
+	        android:id="@+id/etProvincia" 
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:textCursorDrawable="@null"
+		    android:textColor="#999"
+		    android:inputType="text" 
+		    />
+	</LinearLayout>
+	
+<!-- Campos para Dirección Correo Electrónico -->    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:gravity="right"
+	        android:textColor="#999" 
+	        android:textStyle="bold"
+	        android:text="@string/eMail"
+	        />
+	    
+	    <EditText 
+	        android:hint="@string/hintEmail"
+	        android:id="@+id/etEmail"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textCursorDrawable="@null"
+	        android:textColor="#999"
+	        android:inputType="textEmailAddress" 
+        />
+	</LinearLayout>
+	
+<!-- Campos para Dirección Web -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:gravity="right"
+	        android:textColor="#999" 
+	        android:textStyle="bold"
+	        android:text="@string/web" 
+	        />
+	    
+	    <EditText 
+	        android:hint="@string/hintWeb"
+	        android:id="@+id/etWeb"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textCursorDrawable="@null"
+	        android:textColor="#999"
+	        android:inputType="textUri" 
+	        />
+	</LinearLayout>
+    
+<!-- Botón para insertar Registros en la Base de Datos -->    
+    <Button
+        android:id= "@+id/btAlta2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#999"        
+        android:text="@string/alta" 
+        />
+</LinearLayout>

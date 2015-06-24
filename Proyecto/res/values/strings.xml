@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proyecto</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alta">ALTA</string>
+    <string name="baja">BAJA</string>
+    <string name="busqueda">BUSQUEDA</string>
+    <string name="acceso">ACCESO WEB</string>
+    <string name="title_activity_alta">Alta</string>
+    <string name="empresa">EMPRESA</string>
+    <string name="categoria">CATEGORIA</string>
+    <string name="direccion">DIRECCION</string>
+    <string name="numero">Nº</string>
+    <string name="piso">PISO</string>
+    <string name="puerta">PTA.</string>
+    <string name="codPostal">C.P.</string>
+    <string name="poblacion">POBLACION</string>
+    <string name="provincia">PROVINCIA</string>
+    <string name="eMail">E-MAIL</string>
+    <string name="web">WEB</string>
+    <string name="mensaje">mensaje</string>
+    <string name="hintBusqueda">Introduce la busqueda</string>
+    <string name="hintEmpresa">Empresa</string>
+    <string name="hintDireccion">Direccion de empresa</string>
+    <string name="hintCodpos">Cod. Postal</string>
+    <string name="hintPoblacion">Poblacion</string>
+    <string name="hintProvincia">Provincia</string>
+    <string name="hintEmail">E-mail de contacto</string>
+    <string name="hintWeb">Web de empresa</string>
+    <string name="title_activity_acceso">ACCESO A WEB</string>
+    <string name="title_activity_baja">BAJA</string>
+    <string name="title_activity_consulta">BUSCADOR</string>
+    <string name="title_activity_res_consulta">DATOS DE EMPRESA</string>
+
+</resources>
